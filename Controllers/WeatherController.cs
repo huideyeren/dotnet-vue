@@ -4,16 +4,32 @@ using dotnet_vue.Providers;
 
 namespace dotnet_vue.Controllers
 {
+    /// <summary>
+    /// Weather controller.
+    /// </summary>
     [Route("api/[controller]")]
     public class WeatherController : Controller
     {
+        /// <summary>
+        /// The weather provider.
+        /// </summary>
         private readonly IWeatherProvider weatherProvider;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:dotnet_vue.Controllers.WeatherController"/> class.
+        /// </summary>
+        /// <param name="weatherProvider">Weather provider.</param>
         public WeatherController(IWeatherProvider weatherProvider)
         {
             this.weatherProvider = weatherProvider;
         }
 
+        /// <summary>
+        /// Forecasts the specified from and to.
+        /// </summary>
+        /// <returns>The forecasts.</returns>
+        /// <param name="from">From.</param>
+        /// <param name="to">To.</param>
         [HttpGet("[action]")]
         public IActionResult Forecasts([FromQuery(Name = "from")] int from = 0, [FromQuery(Name = "to")] int to = 4)
         {

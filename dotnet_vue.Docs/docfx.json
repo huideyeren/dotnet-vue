@@ -4,12 +4,13 @@
       "src": [
         {
           "files": [
-            "../dotnet_vue.csproj"
+            "dotnet_vue.csproj"
           ],
-          "src": "docs/_api"
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": ".."
         }
       ],
-      "dest": "api",
+      "dest": "docs/_api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }

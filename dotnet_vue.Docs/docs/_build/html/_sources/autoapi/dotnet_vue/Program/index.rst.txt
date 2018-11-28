@@ -1,0 +1,107 @@
+
+
+Program Class
+=============
+
+
+
+
+
+
+Program.
+
+
+Namespace
+    :dn:ns:`dotnet_vue`
+Assemblies
+    * dotnet_vue
+
+----
+
+.. contents::
+   :local:
+
+
+
+Inheritance Hierarchy
+---------------------
+
+
+* :dn:cls:`System.Object`
+* :dn:cls:`dotnet_vue.Program`
+
+
+
+
+
+
+
+
+Syntax
+------
+
+.. code-block:: csharp
+
+    public class Program
+
+
+
+
+
+
+
+
+.. dn:class:: dotnet_vue.Program
+    :hidden:
+
+.. dn:class:: dotnet_vue.Program
+
+Methods
+-------
+
+.. dn:class:: dotnet_vue.Program
+    :noindex:
+    :hidden:
+
+    
+    .. dn:method:: dotnet_vue.Program.CreateWebHostBuilder(System.String[])
+    
+        
+    
+        
+        Creates the web host builder.
+    
+        
+    
+        
+        :param args: Arguments.
+        
+        :type args: System.String<System.String>[]
+        :rtype: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+        :return: The web host builder.
+    
+        
+        .. code-block:: csharp
+    
+            public static IWebHostBuilder CreateWebHostBuilder(string[] args)
+    
+    .. dn:method:: dotnet_vue.Program.Main(System.String[])
+    
+        
+    
+        
+        The entry point of the program, where the program control starts and ends.
+    
+        
+    
+        
+        :param args: The command-line arguments.
+        
+        :type args: System.String<System.String>[]
+    
+        
+        .. code-block:: csharp
+    
+            public static void Main(string[] args)
+    
+
