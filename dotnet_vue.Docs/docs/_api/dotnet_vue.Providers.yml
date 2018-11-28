@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: dotnet_vue.Providers
+  commentId: N:dotnet_vue.Providers
+  id: dotnet_vue.Providers
+  children:
+  - dotnet_vue.Providers.IWeatherProvider
+  - dotnet_vue.Providers.WeatherProviderFake
+  langs:
+  - csharp
+  - vb
+  name: dotnet_vue.Providers
+  nameWithType: dotnet_vue.Providers
+  fullName: dotnet_vue.Providers
+  type: Namespace
+  assemblies:
+  - dotnet_vue
+references:
+- uid: dotnet_vue.Providers.IWeatherProvider
+  commentId: T:dotnet_vue.Providers.IWeatherProvider
+  parent: dotnet_vue.Providers
+  name: IWeatherProvider
+  nameWithType: IWeatherProvider
+  fullName: dotnet_vue.Providers.IWeatherProvider
+- uid: dotnet_vue.Providers.WeatherProviderFake
+  commentId: T:dotnet_vue.Providers.WeatherProviderFake
+  name: WeatherProviderFake
+  nameWithType: WeatherProviderFake
+  fullName: dotnet_vue.Providers.WeatherProviderFake
+- uid: dotnet_vue.Providers
+  commentId: N:dotnet_vue.Providers
+  name: dotnet_vue.Providers
+  nameWithType: dotnet_vue.Providers
+  fullName: dotnet_vue.Providers

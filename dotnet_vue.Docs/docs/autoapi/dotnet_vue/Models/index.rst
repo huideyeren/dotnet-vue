@@ -1,0 +1,55 @@
+
+
+dotnet_vue.Models Namespace
+===========================
+
+
+
+
+
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   
+   
+   /autoapi/dotnet_vue/Models/WeatherForecast/index
+   
+   
+
+
+
+
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+.. dn:namespace:: dotnet_vue.Models
+
+
+    .. rubric:: Classes
+
+
+    class :dn:cls:`WeatherForecast`
+        .. object: type=class name=dotnet_vue.Models.WeatherForecast
+
+        
+
+

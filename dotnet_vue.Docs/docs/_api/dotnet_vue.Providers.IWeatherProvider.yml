@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: dotnet_vue.Providers.IWeatherProvider
+  commentId: T:dotnet_vue.Providers.IWeatherProvider
+  id: IWeatherProvider
+  parent: dotnet_vue.Providers
+  children:
+  - dotnet_vue.Providers.IWeatherProvider.GetForecasts
+  langs:
+  - csharp
+  - vb
+  name: IWeatherProvider
+  nameWithType: IWeatherProvider
+  fullName: dotnet_vue.Providers.IWeatherProvider
+  type: Interface
+  source:
+    remote:
+      path: Providers/IWeatherProvider.cs
+      branch: master
+      repo: git@github.com:huideyeren/dotnet-vue.git
+    id: IWeatherProvider
+    path: ../Providers/IWeatherProvider.cs
+    startLine: 5
+  assemblies:
+  - dotnet_vue
+  namespace: dotnet_vue.Providers
+  syntax:
+    content: public interface IWeatherProvider
+    content.vb: Public Interface IWeatherProvider
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: dotnet_vue.Providers.IWeatherProvider.GetForecasts
+  commentId: M:dotnet_vue.Providers.IWeatherProvider.GetForecasts
+  id: GetForecasts
+  parent: dotnet_vue.Providers.IWeatherProvider
+  langs:
+  - csharp
+  - vb
+  name: GetForecasts()
+  nameWithType: IWeatherProvider.GetForecasts()
+  fullName: dotnet_vue.Providers.IWeatherProvider.GetForecasts()
+  type: Method
+  source:
+    remote:
+      path: Providers/IWeatherProvider.cs
+      branch: master
+      repo: git@github.com:huideyeren/dotnet-vue.git
+    id: GetForecasts
+    path: ../Providers/IWeatherProvider.cs
+    startLine: 7
+  assemblies:
+  - dotnet_vue
+  namespace: dotnet_vue.Providers
+  syntax:
+    content: List<WeatherForecast> GetForecasts()
+    return:
+      type: System.Collections.Generic.List{dotnet_vue.Models.WeatherForecast}
+    content.vb: Function GetForecasts As List(Of WeatherForecast)
+  overload: dotnet_vue.Providers.IWeatherProvider.GetForecasts*
+references:
+- uid: dotnet_vue.Providers
+  commentId: N:dotnet_vue.Providers
+  name: dotnet_vue.Providers
+  nameWithType: dotnet_vue.Providers
+  fullName: dotnet_vue.Providers
+- uid: dotnet_vue.Providers.IWeatherProvider.GetForecasts*
+  commentId: Overload:dotnet_vue.Providers.IWeatherProvider.GetForecasts
+  name: GetForecasts
+  nameWithType: IWeatherProvider.GetForecasts
+  fullName: dotnet_vue.Providers.IWeatherProvider.GetForecasts
+- uid: System.Collections.Generic.List{dotnet_vue.Models.WeatherForecast}
+  commentId: T:System.Collections.Generic.List{dotnet_vue.Models.WeatherForecast}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<WeatherForecast>
+  nameWithType: List<WeatherForecast>
+  fullName: System.Collections.Generic.List<dotnet_vue.Models.WeatherForecast>
+  nameWithType.vb: List(Of WeatherForecast)
+  fullName.vb: System.Collections.Generic.List(Of dotnet_vue.Models.WeatherForecast)
+  name.vb: List(Of WeatherForecast)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: dotnet_vue.Models.WeatherForecast
+    name: WeatherForecast
+    nameWithType: WeatherForecast
+    fullName: dotnet_vue.Models.WeatherForecast
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: dotnet_vue.Models.WeatherForecast
+    name: WeatherForecast
+    nameWithType: WeatherForecast
+    fullName: dotnet_vue.Models.WeatherForecast
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

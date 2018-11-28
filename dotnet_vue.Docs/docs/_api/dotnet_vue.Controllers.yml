@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: dotnet_vue.Controllers
+  commentId: N:dotnet_vue.Controllers
+  id: dotnet_vue.Controllers
+  children:
+  - dotnet_vue.Controllers.HomeController
+  - dotnet_vue.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: dotnet_vue.Controllers
+  nameWithType: dotnet_vue.Controllers
+  fullName: dotnet_vue.Controllers
+  type: Namespace
+  assemblies:
+  - dotnet_vue
+references:
+- uid: dotnet_vue.Controllers.HomeController
+  commentId: T:dotnet_vue.Controllers.HomeController
+  name: HomeController
+  nameWithType: HomeController
+  fullName: dotnet_vue.Controllers.HomeController
+- uid: dotnet_vue.Controllers.WeatherController
+  commentId: T:dotnet_vue.Controllers.WeatherController
+  name: WeatherController
+  nameWithType: WeatherController
+  fullName: dotnet_vue.Controllers.WeatherController
